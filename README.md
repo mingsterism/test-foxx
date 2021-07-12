@@ -13,6 +13,9 @@ The Apache-2.0 license. For more information, see the accompanying LICENSE file.
 `echo openSesame > .password` <br>
 `foxx install -p .password --server http://localhost:8529 --dev /hello`  // to install the foxx service <br>
 
+to update the server with new changes, run  <br>
+`foxx -p .password upgrade /hello`
+
 *note you need a file containing the password of the server in plain text.* <br>
 *see here for documentation. https://changelogs.md/github/arangodb/foxx-cli/* <br>
 
