@@ -16,6 +16,9 @@ The Apache-2.0 license. For more information, see the accompanying LICENSE file.
 to update the server with new changes, run  <br>
 `foxx -p .password upgrade /hello`
 
+to view the request, run postman at this url
+`http://localhost:8529/_db/_system/hello`
+
 *note you need a file containing the password of the server in plain text.* <br>
 *see here for documentation. https://changelogs.md/github/arangodb/foxx-cli/* <br>
 
